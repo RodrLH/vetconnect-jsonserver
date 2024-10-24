@@ -2,14 +2,22 @@
   "users": [
     {
       "id": 1,
-      "username": "victor",
+      "name": "Victor",
+      "email": "victor@gmail.com",
+      "password": "hashed_password_victor",
+      "ruc": 1110,
+      "phone": 2220,
       "roles": [
         "vet-center"
       ]
     },
     {
       "id": 2,
-      "username": "harold",
+      "name": "Harold",
+      "email": "harold@gmail.com",
+      "password": "hashed_password_harold",
+      "dni": 11110,
+      "phone": 231310,
       "roles": [
         "pet-owner"
       ]
@@ -18,17 +26,15 @@
   "vet-centers": [
     {
       "id": 1,
-      "name": "victor",
-      "email": "victor@gmail.com",
-      "ruc": 1110,
-      "phone": 2220,
+      "userId": 1,
       "imageProfile": "owo?",
       "description": "uwu"
     }
   ],
   "bookings": [
     {
-      "petOwnerId": 1,
+      "id": 1,
+      "petOwnerId": 2,
       "vetCenterId": 1,
       "serviceType": "CHECKS",
       "bookingDetails": {
@@ -51,10 +57,8 @@
   ],
   "pet-owners": [
     {
-      "name": "harold",
-      "email": "harold@gmail.com",
-      "dni": 11110,
-      "phone": 231310,
+      "id": 2,
+      "userId": 2,
       "photo": "owo?"
     }
   ]
