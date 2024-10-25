@@ -27,8 +27,64 @@
     {
       "id": 1,
       "userId": 1,
-      "imageProfile": "owo?",
-      "description": "uwu"
+      "imageProfile": "https://img001.prntscr.com/file/img001/0i45dGZ4TS-9PNbBKY-ecA.png",
+      "name": "Clínica Veterinaria - El Roble",
+      "address": "Jr Callao Nro 894, Callao",
+      "services": [
+        {
+          "name": "Consulta clínica",
+          "description": "Evaluación médica general de mascotas.",
+          "price": "60"
+        },
+        {
+          "name": "Baño",
+          "description": "Baño completo para perros y gatos.",
+          "price": "30"
+        },
+        {
+          "name": "Vacunación",
+          "description": "Aplicación de vacunas necesarias según edad y especie.",
+          "price": "45"
+        },
+        {
+          "name": "Desparasitación",
+          "description": "Tratamiento para eliminar parásitos internos y externos.",
+          "price": "50"
+        },
+        {
+          "name": "Corte de uñas",
+          "description": "Servicio de corte de uñas para mascotas.",
+          "price": "15"
+        },
+        {
+          "name": "Limpieza dental",
+          "description": "Limpieza dental completa para evitar problemas bucales.",
+          "price": "80"
+        },
+        {
+          "name": "Hospitalización",
+          "description": "Servicio de hospitalización en casos de tratamiento médico extendido.",
+          "price": "150/día"
+        },
+        {
+          "name": "Cirugía",
+          "description": "Cirugías programadas o de emergencia.",
+          "price": "300"
+        },
+        {
+          "name": "Radiografía",
+          "description": "Estudio radiológico para diagnóstico.",
+          "price": "120"
+        },
+        {
+          "name": "Ecografía",
+          "description": "Ecografía abdominal para diagnóstico médico.",
+          "price": "140"
+        }
+      ],
+      "reviewCount": 233,
+      "averageRating": 4.3,
+      "description": "Clínica especializada en el cuidado de mascotas, ofreciendo servicios médicos y estéticos para todo tipo de animales domésticos."
     }
   ],
   "bookings": [
